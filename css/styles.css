@@ -9,6 +9,7 @@
     --fifth-color: #404bbf;
     --sixth-color: #4d5ae5;
     --seventh-color: #E7E9FC;
+    --eighth-color: #8e8f99;
 }
 
 .container {
@@ -81,6 +82,9 @@ padding: 96px 0 120px
 
 .page-header {
     border-bottom: 1px solid var(--seventh-color);
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -148,6 +152,9 @@ padding: 96px 0 120px
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/Studio/people-office.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
 }
 
 .first-h {
@@ -188,7 +195,7 @@ font-family: 'Roboto', sans-serif;
 .second-h {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
@@ -205,11 +212,8 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.advantages-img-item {
-    width: 64px;
-    height: 64px;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .second-sect {
@@ -274,10 +278,13 @@ gap: 24px;
     background-color: var(--fourth-color);
     width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .worker{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .name-worker {
         font-weight: 500;
@@ -292,18 +299,19 @@ gap: 24px;
 .social {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
 
 }
 
 .social-list-link{
-    background-color: var(--fifth-color);
+    background-color: var(--sixth-color);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 40px;
     height: 40px;
+
 }
 
 .social-link-item {
@@ -315,9 +323,13 @@ gap: 24px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color:var(--third-color);
+        color:var(--third-color); 
         text-align: center;
         margin-bottom: 8px;
+}
+
+.icon-com {
+    background-color:var(--second-color)
 }
 /* =================================== /MAIN STUDIO 4 ====================================== */
 /* =================================== MAIN STUDIO 5 ====================================== */
@@ -325,13 +337,21 @@ gap: 24px;
     padding: 120px 0;
 }
 
+.h-marg {
+    margin-bottom: 72px
+}
+
 .companies {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 24px;
+    gap: 24px;
     padding: 0px;
-    margin-top: 72px;
+
+}
+
+.icon-com {
+    fill: currentColor;
 }
 
 .companies-icons {
@@ -339,10 +359,16 @@ gap: 24px;
     padding: 16px 32px;
     width: 168px;
     height: 88px;
-    border-color: var(--third-color);
+    border-color: var(--eighth-color);
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 4px;
     border-width: 1px;
+}
+
+.companies-icons:hover,
+.companies-icons:focus {
+    border-color:var(--fifth-color);
+    color:var(--fifth-color);
 }
 
 .icon-link {
@@ -375,6 +401,7 @@ gap: 24px;
     border: 1px solid transparent;
     color: var(--fourth-color);
     background-color: var(--fifth-color);
+    box-shadow :0px 3px 1px rgba(0, 0, 0, 0.1),0px 2px 1px rgba(0, 0, 0, 0.08),0px 2px 2px rgba(0, 0, 0, 0.12)
 }
 
 .buttons {
@@ -396,6 +423,14 @@ gap: 24px;
     width: calc((100% - 48px)/3);
 }
 
+.service-link{
+display: block;
+}
+
+.service-link:hover,
+.service-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .services-div {
     padding: 32px 16px;
     border: 1px solid var(--seventh-color);
@@ -437,6 +472,7 @@ display: inline-block;
 
 .two-sides {
     display: flex;
+    align-items: baseline;
     gap: 120px;
 }
 
