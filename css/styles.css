@@ -10,6 +10,7 @@
     --sixth-color: #4d5ae5;
     --seventh-color: #E7E9FC;
     --eighth-color: #8e8f99;
+    --ninth-color: #31d0aa;
 }
 
 .container {
@@ -496,5 +497,21 @@ display: inline-block;
     letter-spacing: 0.02em;
     color: var(--fourth-color);
     margin-bottom: 16px;
+}
+
+.footer-social-list-link {
+    background-color: var(--sixth-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    fill: var(--second-color);
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus{
+    background-color: var(--ninth-color)
 }
 /* =================================== /FOOTER ============================================ */
