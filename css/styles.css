@@ -156,6 +156,8 @@ padding: 96px 0 120px
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first-h {
@@ -301,7 +303,6 @@ gap: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
-
 }
 
 .social-list-link{
@@ -312,12 +313,15 @@ gap: 24px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-
 }
 
-.social-link-item {
-    width: 16px;
-    height: 16px;
+.social-list-link:hover,
+.social-list-link:focus{
+background-color: var(--fifth-color);
+}
+
+.social-link-item{
+    fill: var(--second-color);
 }
 
 .position {
@@ -345,46 +349,38 @@ gap: 24px;
 .companies {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 24px;
-    padding: 0px;
-
 }
 
-.icon-com {
-    fill: currentColor;
-}
 
 .companies-icons {
-    display: flex;
-    padding: 16px 32px;
-    width: 168px;
+    width: calc((100% - 120px) / 6);
     height: 88px;
-    border-color: var(--eighth-color);
-    border-style: solid;
-    border-radius: 4px;
-    border-width: 1px;
 }
 
-.companies-icons:hover,
-.companies-icons:focus {
-    border-color:var(--fifth-color);
-    color:var(--fifth-color);
+.icon-link:hover  .icon-comp,
+.icon-link:focus  .icon-comp{
+border-color: var(--fifth-color);
+fill: var(--fifth-color);
 }
 
 .icon-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 104px;
-    height: 56px;
+    border: 1px solid var(--eighth-color);
+    fill: var(--eighth-color);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
 }
+
 
 
 /* =================================== /MAIN STUDIO 5 ====================================== */
 /* =================================== MAIN PORTFOLIO ====================================== */
 .button{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -471,10 +467,12 @@ margin-bottom: 16px;
 display: inline-block;
 }
 
+.left-side {
+    margin-right: 120px;
+}
 .two-sides {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 
 .last-social {
@@ -489,7 +487,7 @@ display: inline-block;
         color: var(--second-color);
 }
 
-.third-h {
+.footer-h {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
