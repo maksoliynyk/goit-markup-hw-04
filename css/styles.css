@@ -361,7 +361,8 @@ background-color: var(--fifth-color);
 .icon-link:hover,
 .icon-link:focus{
 border-color: var(--fifth-color);
-fill: var(--fifth-color);
+    color: var(--fifth-color);
+    fill: var(--fifth-color);
 }
 
 .icon-com {
