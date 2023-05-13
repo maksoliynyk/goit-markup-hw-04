@@ -374,7 +374,7 @@ border-color: var(--fifth-color);
     justify-content: center;
     align-items: center;
     border: 1px solid var(--eighth-color);
-    fill: var(--eighth-color);
+    color: var(--eighth-color);
     border-radius: 4px;
     width: 100%;
     height: 100%;
