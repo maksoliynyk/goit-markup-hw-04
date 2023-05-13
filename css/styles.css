@@ -1,0 +1,464 @@
+/* ================================= MAIN SETTINGS ======================================== */
+:root {
+    --main-font-family: "Roboto", sans-serif;
+    --secont-font-family: "Raleway", sans-serif;
+    --first-color: #2e2f42;
+    --second-color: #f4f4fd;
+    --third-color: #434455;
+    --fourth-color: #ffffff;
+    --fifth-color: #404bbf;
+    --sixth-color: #4d5ae5;
+    --seventh-color: #E7E9FC;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--third-color);
+    background-color: var(--fourth-color);
+}
+
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+
+.section {
+padding: 96px 0 120px
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/* ================================== /MAIN SETTINGS ====================================== */
+/* =================================== HEADER ============================================= */
+.header-logo {
+ margin-right: 76px;
+}
+
+.logo {
+    font-family: 'Raleway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:var(--sixth-color);
+}
+
+.page-header {
+    border-bottom: 1px solid var(--seventh-color);
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo-sec {
+    color:var(--second-color);
+}
+.menu-nav {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        padding: 24px 0;
+        display: block;
+}
+
+.menu-nav:hover,
+.menu-nav:focus{
+    color:var(--fifth-color);
+}
+.menu-nav {
+    color:var(--first-color);
+}
+
+.contact{
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contact-list-item:hover,
+.contact-list-item:focus{
+    color:var(--fifth-color);
+}
+
+.contact-list-item{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--third-color);
+}
+/* =================================== /HEADER ============================================ */
+/* =================================== MAIN STUDIO 1 ======================================= */
+.first-sect {
+    background-color: var(--first-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/Studio/people-office.jpg');
+    background-size: cover;
+}
+
+.first-h {
+    max-width: 496px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color);
+    margin: 0 auto 48px;
+}
+
+.order {
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--fourth-color);
+    background: var(--sixth-color);
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.order:hover,
+.order:focus{
+    background-color: var(--fifth-color)
+}
+/* =================================== /MAIN STUDIO 1 ====================================== */
+/* =================================== MAIN STUDIO 2 ======================================= */
+.second-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--first-color);
+}
+.h-marsec {
+    margin-bottom: 72px;
+}
+
+.advantages-img {
+    width: 264px;
+    height: 112px;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-img-item {
+    width: 64px;
+    height: 64px;
+}
+
+.second-sect {
+    padding: 120px 0;
+}
+
+.advantages-item {
+    width: calc((100% - 72px) / 4)
+}
+
+.advantages {
+    display: flex;
+    gap: 24px;
+}
+
+.list-advantages{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--first-color);
+        margin-bottom: 8px;
+}
+
+.list-advantages-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--third-color);
+}
+/* =================================== /MAIN STUDIO 2 ====================================== */
+/* =================================== MAIN STUDIO 3 ======================================= */
+.third-sect-container{
+gap: 72px;
+}
+
+.third-sect {
+    padding-bottom: 120px;
+}
+.photos {
+    display: flex;
+    gap: 24px;
+}
+
+.first-photos-studio {
+    width: calc((100% - 48px)/3);
+}
+/* =================================== /MAIN STUDIO 3 ====================================== */
+/* =================================== MAIN STUDIO 4 ======================================= */
+.forth-sect {
+    background-color: var(--second-color);
+    padding: 120px 0;
+}
+
+.employeers {
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+
+.inf-work{
+    background-color: var(--fourth-color);
+    width: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.worker{
+    padding: 32px 16px;
+}
+.name-worker {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--first-color);
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+
+}
+
+.social-list-link{
+    background-color: var(--fifth-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.social-link-item {
+    width: 16px;
+    height: 16px;
+}
+
+.position {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--third-color);
+        text-align: center;
+        margin-bottom: 8px;
+}
+/* =================================== /MAIN STUDIO 4 ====================================== */
+/* =================================== MAIN STUDIO 5 ====================================== */
+.fifth-sect {
+    padding: 120px 0;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    padding: 0px;
+    margin-top: 72px;
+}
+
+.companies-icons {
+    display: flex;
+    padding: 16px 32px;
+    width: 168px;
+    height: 88px;
+    border-color: var(--third-color);
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 1px;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 56px;
+}
+
+
+/* =================================== /MAIN STUDIO 5 ====================================== */
+/* =================================== MAIN PORTFOLIO ====================================== */
+.button{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        padding: 12px 24px;
+        border-radius: 4px;
+        border: 1px solid var(--seventh-color);
+        color: var(--sixth-color);
+        background-color: var(--second-color);
+}
+
+.button-function:hover,
+.button-function:focus {
+    border: 1px solid transparent;
+    color: var(--fourth-color);
+    background-color: var(--fifth-color);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+ 
+.services-item {
+    width: calc((100% - 48px)/3);
+}
+
+.services-div {
+    padding: 32px 16px;
+    border: 1px solid var(--seventh-color);
+    border-top: none;
+}
+
+.picture-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--first-color);
+        margin-bottom: 8px;
+    }
+
+.picture-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--third-color);
+}
+
+/* =================================== /MAIN PORTFOLIO ==================================== */
+/* =================================== FOOTER ============================================= */
+.logo-first{
+    color: var(--first-color);
+}
+
+.last-step{
+    background-color: var(--first-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+margin-bottom: 16px;
+display: inline-block;
+}
+
+.two-sides {
+    display: flex;
+    gap: 120px;
+}
+
+.last-social {
+    display: flex;
+    gap: 16px;
+}
+.logo-text{
+        width: 264px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--second-color);
+}
+
+.third-h {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color);
+    margin-bottom: 16px;
+}
+/* =================================== /FOOTER ============================================ */
