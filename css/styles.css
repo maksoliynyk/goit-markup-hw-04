@@ -151,7 +151,7 @@ padding: 96px 0 120px
     background-color: var(--first-color);
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/Studio/work.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Studio/work.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
